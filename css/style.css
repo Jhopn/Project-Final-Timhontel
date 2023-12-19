@@ -2,9 +2,13 @@ body{
     padding: 0px;
     margin: 0px;
 }
+.logo{
+    width: 6rem;
+    height: 4rem;
+}
 .carousel-item img {
-    width: 900px;
-    height: 550px;
+    width: 50%;
+    height: 22rem;
 }
 .card img{
     height: 11rem;
@@ -17,6 +21,16 @@ body{
 .imagemJaccquin :hover{
     transition: 1s;
     opacity: 60%;
+}
+.legend{
+    background-color: black;
+    display: none;
+}
+.imagem-grande:hover .legend{
+    display: block;
+}
+.imagem-pequena:hover .legend{
+    display: block;
 }
 .restaurante{
     display: flex;
@@ -40,9 +54,53 @@ body{
     height: 13rem;
 }
 .imgNoticias{
-    width: 40rem;
-    height: 25rem;
+    margin-top: 4rem;
+    width: 32rem;
+    height: 39rem;
 }
+figcaption{
+    width: 25rem;
+}
+figcaption p + p{
+    width: 17rem;
+    font-size: 0.8rem;
+}
+.reserva{
+    transform: 1s;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    top: 9.1rem;
+    right: -0.5rem;
+    width: 7.8rem;
+    height: 3.7rem;
+    transition: box-shadow 0.3s ease;
+    display: block;
+}
+
+.figure-1:hover .reserva{
+    transition: 1s;
+    background-color: black;
+    color: white;
+}
+.figure-1:hover .imgNoticias{
+    transition: 1s;
+    transform: scale(1.05);
+    border: 1rem solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.figure-2:hover .reserva{
+    transition: 1s;
+    background-color: black;
+    color: white;
+}
+.figure-2:hover .imgNoticias{
+    transition: 1s;
+    transform: scale(1.05);
+    border: 1rem solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
 
 
 
