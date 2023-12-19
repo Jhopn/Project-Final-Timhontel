@@ -1,0 +1,48 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.carousel-item img {
+    width: 900px;
+    height: 550px;
+}
+.card img{
+    height: 11rem;
+}
+.imagem{
+    width: all;
+    height: 200px;
+    background-color: black;
+}
+.imagemJaccquin :hover{
+    transition: 1s;
+    opacity: 60%;
+}
+.restaurante{
+    display: flex;
+    justify-content: end;
+    background-color: antiquewhite;
+}
+.SecondJaccquin{
+    position: relative; 
+    width: 200px;
+    height: 200px;
+    top: -200px;
+    left: 500px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+}
+.vistasparadisiacas{
+    width: 20rem;
+    height: 13rem;
+}
+.imgNoticias{
+    width: 40rem;
+    height: 25rem;
+}
+
+
+
