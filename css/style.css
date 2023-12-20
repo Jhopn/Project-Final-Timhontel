@@ -3,8 +3,8 @@ body{
     margin: 0px;
 }
 .logo{
-    width: 6rem;
-    height: 4rem;
+    width: 27rem;
+    height: 15rem;
 }
 .carousel-item img {
     width: 50%;
@@ -18,20 +18,32 @@ body{
     height: 200px;
     background-color: black;
 }
-.imagemJaccquin :hover{
+.imagem-grande:hover img{
     transition: 1s;
     opacity: 60%;
+    transition: 1s;
+    transform: scale(1.05);
+    border: 1rem solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .legend{
-    background-color: black;
+    width: 25rem;
+    top: 7rem;
+    right: 10rem;
+    background-color: #1d243a;
     display: none;
+    border-radius: 5%;
 }
 .imagem-grande:hover .legend{
+    transition: 1s;
     display: block;
+    opacity: 100%;
 }
-.imagem-pequena:hover .legend{
-    display: block;
+.imagem-pequena{
+    width: 0rem;
+    height: 0rem;
 }
+
 .restaurante{
     display: flex;
     justify-content: end;
@@ -57,6 +69,7 @@ body{
     margin-top: 4rem;
     width: 32rem;
     height: 39rem;
+    object-fit: cover;
 }
 figcaption{
     width: 25rem;
@@ -81,26 +94,45 @@ figcaption p + p{
     transition: 1s;
     background-color: black;
     color: white;
+    cursor:pointer;
 }
 .figure-1:hover .imgNoticias{
     transition: 1s;
     transform: scale(1.05);
     border: 1rem solid transparent;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor:pointer;
 }
 .figure-2:hover .reserva{
     transition: 1s;
     background-color: black;
     color: white;
+    cursor:pointer;
 }
 .figure-2:hover .imgNoticias{
     transition: 1s;
     transform: scale(1.05);
     border: 1rem solid transparent;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
+    cursor:pointer;
 }
-
-
+#navbar {
+    position: relative;
+    transition: top 0.3s ease;
+    background-color: #1d243a;
+}
+#navbar.fixed-navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #1d243a;
+    opacity: 60%;
+}
+#navbar:hover{
+    opacity: 100%;
+}
+footer{
+    background-color: #1d243a;
+}
 
 
