@@ -134,5 +134,47 @@ figcaption p + p{
 footer{
     background-color: #1d243a;
 }
+@media screen and (max-width: 1200px) {
+    .restaurante{
+        display: inline-block;
+    }
+    .primeJaccquin{
+        margin-left: 8rem;
+       
+    }
+    .SecondJaccquin{
+        width: 10rem;
+        height: 10rem;
+        top: -7rem;
+    }
+    .imagenss{
+        display: inline-block;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .imgNoticias{
+        margin-top: -4rem;
+        width: 20rem;
+        height: 15rem;
+        object-fit: cover;
+    }
+    figcaption{
+        width: 20rem;
+    }
+    figcaption p + p{
+        width: 12rem;
+        font-size: 0.8rem;
+    }
+    .figure-1{
+        margin: 5rem;
+    }
+    .figure-2{
+        margin: 5rem;
+    }
+    footer{
+        margin-top: 13rem;
+    }
 
+
+}
 
