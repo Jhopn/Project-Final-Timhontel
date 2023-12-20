@@ -1,0 +1,183 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.logo{
+    width: 27rem;
+    height: 15rem;
+}
+.carousel-item img {
+    width: 50%;
+    height: 22rem;
+}
+.card img{
+    height: 11rem;
+}
+.imagem{
+    width: all;
+    height: 200px;
+    background-color: black;
+}
+.imagem-grande:hover img{
+    transition: 1s;
+    opacity: 60%;
+    transition: 1s;
+    transform: scale(1.05);
+    border: 1rem solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.legend{
+    width: 25rem;
+    top: 7rem;
+    right: 10rem;
+    background-color: #1d243a;
+    display: none;
+    border-radius: 5%;
+}
+.imagem-grande:hover .legend{
+    transition: 1s;
+    display: block;
+    opacity: 100%;
+}
+.imagem-pequena{
+    width: 0rem;
+    height: 0rem;
+}
+
+.restaurante{
+    display: flex;
+    justify-content: end;
+    background-color: antiquewhite;
+}
+.SecondJaccquin{
+    position: relative; 
+    width: 200px;
+    height: 200px;
+    top: -200px;
+    left: 500px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+}
+.vistasparadisiacas{
+    width: 20rem;
+    height: 13rem;
+}
+.imgNoticias{
+    margin-top: 4rem;
+    width: 32rem;
+    height: 39rem;
+    object-fit: cover;
+}
+figcaption{
+    width: 25rem;
+}
+figcaption p + p{
+    width: 17rem;
+    font-size: 0.8rem;
+}
+.reserva{
+    transform: 1s;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    top: 9.1rem;
+    right: -0.5rem;
+    width: 7.8rem;
+    height: 3.7rem;
+    transition: box-shadow 0.3s ease;
+    display: block;
+}
+
+.figure-1:hover .reserva{
+    transition: 1s;
+    background-color: black;
+    color: white;
+    cursor:pointer;
+}
+.figure-1:hover .imgNoticias{
+    transition: 1s;
+    transform: scale(1.05);
+    border: 1rem solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor:pointer;
+}
+.figure-2:hover .reserva{
+    transition: 1s;
+    background-color: black;
+    color: white;
+    cursor:pointer;
+}
+.figure-2:hover .imgNoticias{
+    transition: 1s;
+    transform: scale(1.05);
+    border: 1rem solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor:pointer;
+}
+#navbar {
+    position: relative;
+    transition: top 0.3s ease;
+    background-color: #1d243a;
+}
+#navbar.fixed-navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #1d243a;
+    opacity: 60%;
+}
+#navbar:hover{
+    opacity: 100%;
+}
+footer{
+    background-color: #1d243a;
+}
+@media screen and (max-width: 1200px) {
+    .restaurante{
+        display: inline-block;
+    }
+    .primeJaccquin{
+        margin-left: 8rem;
+       
+    }
+    .SecondJaccquin{
+        width: 10rem;
+        height: 10rem;
+        top: -7rem;
+    }
+    .imagenss{
+        display: inline-block;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .imgNoticias{
+        margin-top: -4rem;
+        width: 20rem;
+        height: 15rem;
+        object-fit: cover;
+    }
+    figcaption{
+        width: 20rem;
+    }
+    figcaption p + p{
+        width: 12rem;
+        font-size: 0.8rem;
+    }
+    .figure-1{
+        margin: 5rem;
+    }
+    .figure-2{
+        margin: 5rem;
+    }
+    footer{
+        margin-top: 13rem;
+    }
+
+}
+@media screen and (min-width: 600px) and (max-width:1199px){
+
+
+}
+
