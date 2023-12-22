@@ -1,2 +1,2 @@
-# Projeto Final disciplina de fundamento de desenvolvimento web
-utilizando bootstrap 
+# Final Project web development fundamentals course
+Website using bootstrap framework
