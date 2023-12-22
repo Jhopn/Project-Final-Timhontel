@@ -195,15 +195,16 @@ footer{
         width: 30rem;
     }
     .carousel-item img{
-        width: 20rem;
+        width: 23rem;
         height: 20rem;
     }
     div{
         width: 35rem;
     }
-    /* .card{
+    .imgBorda div{
         border: none;
-    } */
+        background-color: none;
+    }
     .card img{
         margin-left: 7rem;
     }
@@ -219,7 +220,21 @@ footer{
 
     }
     .alojamento2{
-        text-align: end;
+        width: 20rem;
+        margin-left: 8rem;
+        /* padding-left: 10px; */
+        text-align: center;
+    }
+    .alojamento2 + button{
+        position: absolute;
+        width: 20rem;
+        left: 7rem;
+    }
+    .ofertas{
+        margin-top: 10rem;
+    }
+    .ofertas .container{
+        margin-left: 8rem;
     }
     .ofertas div{
         width: 20rem;
@@ -231,12 +246,25 @@ footer{
         width: 20rem;
         margin: 5rem;
     }
+    figcaption{
+        width: 16rem;
+    }
 
+    figcaption p{
+        width: 12rem;
+    }
+    .logo{
+        display: none;
+    }
     footer{
         margin: 0rem -27rem;
         margin-top: 5rem;
-        padding: 0.5rem;
     }
+
+    footer div + div{
+        display: none;
+    }
+
 }
 @media screen and (max-width:400px){
     footer{
